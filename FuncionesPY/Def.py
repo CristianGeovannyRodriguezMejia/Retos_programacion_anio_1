@@ -11,3 +11,4 @@ if  par(num):
     print("el numero es par");
 else: 
     print("el numero es impar");
+
