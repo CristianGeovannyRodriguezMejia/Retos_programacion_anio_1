@@ -5,7 +5,7 @@ suma = 0
 while num1 > 0:
     if num1%2!=0:
      suma = suma + num2
-    num1 = num1//2
-    num2 = num2*2
+     num1 = num1//2
+     num2 = num2*2
     print(f"valor es: {num1}")
 print(f"el producto es: {suma}")
