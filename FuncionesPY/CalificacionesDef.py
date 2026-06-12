@@ -19,9 +19,10 @@ cal2 =float(input("Digite su nota 2 : "))
 cal3 =float(input("Digite la nota 3 : "))
 
 #Comprobacion de si la nota esta en el rango
-if  cal1 >= 0.1 and cal1 <= 10.0 or cal2 >= 0.1 and cal2 <= 10.0 or cal3 >= 0.1 and cal3 <= 10.0 :
+if  (cal1 >= 0.1 and cal1 <= 10.0) and (cal2 >= 0.1 and cal2 <= 10.0) and (cal3 >= 0.1 and cal3 <= 10.0) :
     Respuesta = CalCalificaciones(cal1,cal2,cal3,codigo);
     print(f"Usted con codigo de aula {codigo} aprovo") if Respuesta else print(f"Usted con codigo de aula {codigo} no aprovo")
 else : 
+   
     print("su notas no estan en el rango");
 
